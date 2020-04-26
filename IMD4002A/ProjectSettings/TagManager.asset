@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Interact
+  - Picture
   layers:
   - Default
   - TransparentFX

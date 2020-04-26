@@ -36,6 +36,12 @@ public class CrosshairGUI : MonoBehaviour
                 m_DefaultReticle = false;
                 m_UseReticle = true;
             }
+
+            if (hit.collider.gameObject.tag == "Picture")
+            {
+                m_DefaultReticle = false;
+                m_UseReticle = true;
+            }
         }
         else
         {

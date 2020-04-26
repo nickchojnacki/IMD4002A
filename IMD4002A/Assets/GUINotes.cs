@@ -9,7 +9,11 @@ public class GUINotes : MonoBehaviour {
 
 public float PickupRange = 3f;
 
-private bool backNotes = false;
+public AudioSource audio1;
+public AudioSource audio2;
+
+
+    private bool backNotes = false;
 
 private Ray playerAim;
 private Camera playerCam;
@@ -29,7 +33,19 @@ private GameObject NoteObject;
 					backNotes = false;
 				}
 			}
-		}
+
+            if (hit.collider.tag == "Picture")
+            {
+                NoteObject = hit.collider.gameObject;
+                if (Input.GetMouseButtonDown(0))
+                {
+                    audioStop();
+                    NoteObject.GetComponent<AudioSource>().Play();
+                }
+            }
+
+        }
+
 		if(backNotes){
 			NoteObject.GetComponent<Notes>().BackNotes();
 			backNotes = false;
@@ -39,4 +55,10 @@ private GameObject NoteObject;
 	public void Back() {
 		backNotes = true;
 	}
+
+    public void audioStop()
+    {
+       audio1.Stop();
+       audio2.Stop();
+    }
 }

@@ -67,27 +67,27 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 14116}
+      Script: {instanceID: 11298}
     - Class: 114
-      Script: {instanceID: 14216}
+      Script: {instanceID: 11392}
     - Class: 114
-      Script: {instanceID: 14290}
+      Script: {instanceID: 11460}
     - Class: 114
-      Script: {instanceID: 14336}
+      Script: {instanceID: 11494}
     - Class: 114
-      Script: {instanceID: 14746}
+      Script: {instanceID: 11504}
     - Class: 114
-      Script: {instanceID: 15190}
+      Script: {instanceID: 11894}
     - Class: 114
-      Script: {instanceID: 15704}
+      Script: {instanceID: 12032}
     - Class: 114
-      Script: {instanceID: 16082}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 82216}
+      Script: {instanceID: 12502}
     - Class: 114
-      Script: {instanceID: 82218}
+      Script: {instanceID: 12800}
     - Class: 114
-      Script: {instanceID: 82220}
+      Script: {instanceID: 13162}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -189,6 +189,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: ae6033a1dd102bf24f01797e495ea9a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CrosshairGUI
   - hash:
       serializedVersion: 2
       Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
@@ -329,6 +335,12 @@ ScriptsOnlyBuild:
     className: DragRigidbody
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: click
+  - hash:
+      serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -357,6 +369,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: PlatformSpecificContent
+  - hash:
+      serializedVersion: 2
+      Hash: 25a56caf308a139b7476380d63abd2da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GUINotes
   - hash:
       serializedVersion: 2
       Hash: 0574135745ea880aa1c1be2f2057ab89
@@ -485,6 +503,12 @@ ScriptsOnlyBuild:
     className: InputField
   - hash:
       serializedVersion: 2
+      Hash: 145f5ee0eb304930bf3944de258dcd2a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Notes
+  - hash:
+      serializedVersion: 2
       Hash: c9a8b80298a116835b51ba1cf9284367
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -537,6 +561,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GUICrosshair
   - hash:
       serializedVersion: 2
       Hash: c933b2cffdb9d1429a103e9d63c523ef
@@ -705,36 +735,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMobileShaderSwitch
-  - hash:
-      serializedVersion: 2
-      Hash: ae6033a1dd102bf24f01797e495ea9a2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CrosshairGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 399d144d0215fe84b6570808d7c27811
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GUINotes
-  - hash:
-      serializedVersion: 2
-      Hash: 145f5ee0eb304930bf3944de258dcd2a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Notes
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: click
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GUICrosshair
   platform: 5
   scenePathNames:
   - Assets/Scenes/Museum.unity
